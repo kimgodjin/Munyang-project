@@ -1,0 +1,106 @@
+body{
+    background-color: #d9d9d9;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #d9d9d9;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.nav-img{
+    width: 30%;
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Shizuru', cursive;
+    text-align: center;
+}
+
+.carousel{
+    width: 50%;
+    margin-top: 5rem;
+}
+
+.cat-nft{
+  color: black;
+  font-size: 2rem;
+}
+
+.card-div{
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.card-text:hover{
+    color: #d9d9d9;
+}
+
+.card{
+    width: 20rem;
+}
+
+.card-mg{
+  margin: 5rem 5rem;
+}
+
+footer{
+  background-color: black;
+  font-weight: 900;
+  color: white;
+  font-size: 1rem;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.footer-box1{
+  display: flex;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 1rem;
+}
+
+.footer-box2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-display{
+  text-align: center;
+  display: none;
+}
+
+@media screen and (max-width:48rem){
+  .card{
+      width: 12rem;
+  }
+  .carousel{
+      width: 100%;
+      margin: 3rem 0px;
+  }
+  a{
+    padding-bottom: 1rem;
+  }
+  .card-mg{
+    margin: 0px;
+  }
+  .footer-box2{
+    border-bottom: 1px solid white;
+  }
+  .footer-display{
+    display: block;
+  }
+}
